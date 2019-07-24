@@ -73,7 +73,7 @@ function CMSSW_10_2_9 {
         git cms-merge-topic cms-met:METFixEE2017_949_v2_backport_to_102X
         ## additional variables for qg: (axis1,cmult,nmult). Optional 
         git cms-merge-topic amarini:topic_qgmorvar_102X 
-        git clone ssh://git@gitlab.cern.ch:7999/uhh-cmssw/fsr-photon-recovery.git FSRPhotonRecovery
+        git clone https://gitlab.cern.ch/uhh-cmssw/fsr-photon-recovery FSRPhotonRecovery
 }
 
 
